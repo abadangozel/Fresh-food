@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+/*Navbar start*/
+.navbar {
+    padding: 0px 9% 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    top: 0;
+    position: fixed;
+    z-index: 999;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+#logo img {
+    width: 190px;
+    margin-top: 3px;
+}
+.nav-item .nav-link {
+    color: black;
+    font-weight: 550;
+    transition: all 0.4s;
+}
+.nav-item:hover .nav-link:hover {
+    color: crimson;
+}
+/*home start*/
+.home .card {
+    display: flex;
+    padding: 100px 11% 80px;
+}
+.home .row {
+    flex: 1 1 300px;
+}
+.home .img-fluid{
+    width: 100%;
+}
+.home .card-title {
+    font-size: 40px;
+    font-weight: 700;
+}
+/*top*/
+.top-section {
+    padding: 10px 11% 100px;
+}
+/*menu*/
+.menu-section {
+    padding: 100px 11% 100px;
+}
+/*order*/
+.order h5 {
+    padding: 50px 11% 50px;
+}
+.order .row {
+    padding: 20px 11% 50px;
+}
+/*about*/
+.about .row {
+    padding: 130px 11% 80px;
+}
+/*contact*/
+.contact {
+    padding: 130px 11% 80px;
+}
+.contact .row .yazi {
+    border-radius: 10px;
+}
+.contact textarea {
+    resize: none;
+}
+/*contact*/
+.footer {
+    padding: 15px 11% 15px;
+}   
+.footer .f-content .f-icons i {
+    margin: 10px;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.f-content i:hover{
+    color: white;
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
